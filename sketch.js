@@ -21,7 +21,7 @@ function draw() {
   
   if(keyWentDown(UP_ARROW)){
     writeStock(foodS);
-    dog.addImage(dogHappy);
+    dog.addImage(happyDog);
   }
   drawSprites();
   textSize(20);
